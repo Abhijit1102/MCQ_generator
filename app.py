@@ -53,7 +53,7 @@ def quiz():
             # Save the uploaded text file
             file_upload.save(f'uploads/{file_upload.filename}')
             file_path = f'uploads/{file_upload.filename}'
-           # print(f'File uploaded successfully. Path: {file_path}')
+            print(f'File uploaded successfully. Path: {file_path}')
 
         with open(file_path, 'r') as file:
             TEXT = file.read()

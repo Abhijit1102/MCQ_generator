@@ -1,4 +1,6 @@
 openai
+langchain_community
+langchain_openai
 langchain
 Flask
 python-dotenv
